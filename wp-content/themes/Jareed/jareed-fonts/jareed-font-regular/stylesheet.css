@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Florentia';
+    src: url('Florentia-Regular.eot');
+    src: url('Florentia-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Florentia-Regular.woff2') format('woff2'),
+        url('Florentia-Regular.woff') format('woff'),
+        url('Florentia-Regular.ttf') format('truetype'),
+        url('Florentia-Regular.svg#Florentia-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

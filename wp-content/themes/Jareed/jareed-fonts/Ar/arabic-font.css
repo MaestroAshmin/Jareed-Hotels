@@ -1,0 +1,10 @@
+@font-face {
+  font-family: HelveticaBold;
+  src: url(HelveticaNeueLTArabic-Bold.ttf);
+}@font-face {
+  font-family: HelveticaLight;
+  src: url(HelveticaNeueLTArabic-Light.ttf);
+}@font-face {
+  font-family: HelveticaRoman;
+  src: url(HelveticaNeueLTArabic-Roman.ttf);
+}

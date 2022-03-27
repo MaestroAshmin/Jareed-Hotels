@@ -1,0 +1,3746 @@
+/* Body */
+body {
+  background-color: #f1f1f2;
+  /* padding-top: 176px; */
+}
+.arabic a:hover {
+  text-decoration: none;
+}
+@media (max-width: 1290px) {
+  .navbar-expand-custom > .container,
+  .navbar-expand-custom > .container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .navbar-expand-custom .navbar-nav {
+    flex-direction: row !important;
+  }
+}
+@media (max-width: 1050px) {
+  .navbar-expand-custom .navbar-nav {
+    flex-direction: column !important;
+  }
+}
+@media (min-width: 1290px) {
+  .navbar-expand-custom {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-flow: row nowrap !important;
+    flex-flow: row nowrap !important;
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+  }
+  .navbar-expand-custom .navbar-nav {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+  }
+  .navbar-expand-custom .navbar-nav .dropdown-menu {
+    position: absolute !important;
+  }
+  .navbar-expand-custom .navbar-nav .dropdown-menu-right {
+    right: 0 !important;
+    left: auto !important;
+  }
+  .navbar-expand-custom > .container,
+  .navbar-expand-custom > .container-fluid {
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+  }
+  .navbar-expand-custom .navbar-collapse {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto !important;
+    flex-basis: auto !important;
+  }
+  .navbar-expand-custom .navbar-toggler {
+    display: none !important;
+  }
+  .navbar-expand-custom .dropup .dropdown-menu {
+    top: auto !important;
+    bottom: 100% !important;
+  }
+}
+html,
+body {
+  overflow-x: hidden;
+}
+/*header*/
+header {
+  position: relative;
+}
+/* Container */
+.navbar-toggler {
+  float: none !important;
+}
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+/* nav */
+nav {
+  height: auto;
+  width: 100%;
+  background-color: #c7b283;
+}
+.navbar-nav {
+  /* border-bottom: 1px solid #4a535c; */
+  margin-bottom: 10px !important;
+}
+.logo-container {
+  height: auto;
+  width: 140px;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.logo img {
+  height: auto;
+  width: 100%;
+}
+.nav a.active {
+  color: white;
+}
+.navbar-contain {
+  height: 100%;
+  width: 100%;
+}
+.booking-nav {
+  height: auto;
+  width: 100%;
+  padding-right: 2.25rem;
+  margin: 0 auto;
+}
+.booking-nav .arabic,
+.booking-nav1 .arabic {
+  font-family: HelveticaBold;
+  font-weight: 800 !important;
+  vertical-align: text-top;
+}
+
+.booking-nav1 {
+  height: auto;
+  width: auto;
+  padding-right: 1em;
+  margin: 0 auto;
+}
+.navbar-container {
+  /* height: 35%; */
+  width: 100%;
+  background-color: #c7b283;
+}
+.nav-link {
+  color: #4a535c;
+  padding: 0.5rem 0rem 0.75rem 0rem !important;
+  font-size: 14px !important;
+  font-family: "Florentia Med";
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.nav-link:hover {
+  color: white !important;
+  border-bottom: 1px solid #4a535c;
+  /* box-shadow: 0 3px 0px -2px #4a535c; */
+  padding-right: 2.22rem;
+}
+.mobile-menu {
+  display: none !important;
+}
+.booking-nav img {
+  height: 39px;
+  width: 50px;
+  padding-top: 8px;
+}
+.booking-nav1 img {
+  height: 39px;
+  width: 50px;
+  padding-top: 8px;
+}
+.navbar-elements {
+  margin-left: 0px;
+}
+.booking-nav .socials-btn {
+  width: 40px !important;
+  height: 40px !important;
+  margin-top: 15px !important;
+  padding: 0px !important;
+  margin-left: 0px;
+  /* margin: auto; */
+}
+.booking-nav1 .socials-btn {
+  width: 40px !important;
+  height: 40px !important;
+  margin-top: 15px !important;
+  padding: 0px !important;
+  margin-left: 0px;
+  /* margin: auto; */
+}
+.booking-nav .socials-btn img {
+  height: 40px;
+  width: 40px;
+}
+.booking-nav1 .socials-btn img {
+  height: 40px;
+  width: 40px;
+}
+/* .btn {
+  padding-top: 0.15rem !important;
+  padding-bottom: 0.15rem !important;
+} */
+.member-button {
+  border: 1px solid #4b555c !important;
+  color: #4b555c !important;
+  height: auto;
+  width: auto;
+  margin: 15px;
+  border-radius: 0px !important;
+  font-family: "Florentia Med";
+  font-size: 14px !important;
+}
+.member-button a:hover {
+  text-decoration: none !important;
+}
+.booknow-button {
+  background-color: #4b555c !important;
+  color: #c7b283 !important;
+  height: auto;
+  width: auto;
+  margin: 15px;
+  border-radius: 0px !important;
+  font-family: "Florentia Med";
+  font-size: 14px !important;
+  border: 1px solid #4b555c !important;
+}
+/* .language-button{
+    height: 35px;
+    width:75px;
+    margin-top:5px !important;
+    padding:0px !important; 
+    
+} */
+.language-button {
+  border: 1px solid #4b555c !important;
+  color: #4b555c !important;
+  height: auto;
+  width: auto;
+  margin: 15px;
+  border-radius: 0px !important;
+  font-family: "HelveticaLight";
+  font-size: 14px !important;
+}
+.booking-nav .change-btn button:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+.booking-nav1 .change-btn button:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+/* banner */
+.banner .carousel-indicators {
+  top: 85% !important;
+}
+#banner {
+  /* padding-top: 120px; */
+}
+#about-us {
+  padding-top: 128px;
+}
+#rooms-suites {
+  padding-top: 128px;
+}
+#gallery {
+  padding-top: 128px;
+}
+.gallery {
+  width: 100%;
+  height: auto;
+  background-color: #f1f1f2;
+  padding: 75px 75px 35px 75px !important;
+}
+.gallery .title {
+  width: auto;
+  font-size: 2em;
+  letter-spacing: 3px;
+  font-family: "Florentia Med";
+  color: #c7b283;
+  margin-right: 25px;
+  margin-left: 25px;
+  text-align: center;
+}
+#gallery-carousel {
+  height: 100%;
+  width: 100%;
+}
+#gallery-carousel .carousel-inner {
+  height: 500px;
+  width: 100%;
+}
+#gallery-carousel .carousel-item {
+  height: 100%;
+  width: 100%;
+}
+.gallery img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.gallery .carousel-indicators li {
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: #c7b283;
+  position: relative;
+  top: -10px;
+}
+.gallery .carousel-indicators li:after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #c7b283;
+}
+.gallery .carousel-indicators {
+  bottom: 220px;
+}
+.gallery .carousel-control-prev {
+  bottom: -300px;
+}
+.gallery .carousel-control-next {
+  bottom: -300px;
+}
+.gallery span {
+  height: 30px;
+  width: 30px;
+  background-color: #4b555c;
+  border-radius: 50%;
+}
+.gallery .car-icon {
+  font-weight: 800;
+  color: #c7b283;
+}
+.custom-thumbnail {
+  height: 200px;
+  width: 100%;
+  background-color: #f1f1f2;
+  margin-top: 100px;
+}
+.custom-thumbnail .col {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.custom-thumbnail img {
+  height: 200px;
+  width: 100%;
+  border: 1px solid #c7b283 !important;
+  filter: grayscale(100%);
+}
+.custom-thumbnail .active img {
+  filter: none;
+}
+/* .thumbnails__list{
+    list-style-type: none;
+}
+.thumbnails{
+    height:200px;
+    width:100%;
+    margin-top:50px;
+}
+.thumbnails__item{
+    width:100%;
+    margin:0px;
+} */
+.banner {
+  /* height: 450px; */
+  height: 100vh;
+  max-width: 100%;
+}
+#banner-carousel {
+  height: 100%;
+  width: 100%;
+}
+#banner-carousel .carousel-inner {
+  height: 100%;
+  width: 100%;
+}
+#banner-carousel .carousel-item {
+  height: 100%;
+  width: 100%;
+}
+.banner img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.banner .carousel-indicators li {
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: white;
+  position: relative;
+  top: -10px;
+}
+.banner .carousel-indicators li:after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: white;
+}
+.booking-fixed {
+  height: 100%;
+  width: 100%;
+}
+.booking-form-fixed {
+  background-color: #4b555c;
+  height: 60px;
+}
+.booking-form-fixed .book-button {
+  background-color: #f1f1f2 !important;
+  color: #7f7f6e !important;
+  height: 40px;
+  width: auto;
+  border: 1px solid #f1f1f2;
+  border-radius: 0px !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  font-family: "Florentia Med";
+}
+.book-button .button-text {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 9px !important;
+}
+.booking-form-fixed input[type="number"] {
+  height: 40px;
+  border: 1px solid #f1f1f2;
+  border-radius: 0px !important;
+  background-color: transparent;
+  color: #f1f1f2 !important;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px !important;
+  font-family: "Florentia Med";
+  padding-left: 15px;
+}
+.booking-form-fixed input[type="text"] {
+  height: 40px;
+  width: auto;
+  border: 1px solid #f1f1f2;
+  border-radius: 0px !important;
+  background-color: transparent;
+  color: #f1f1f2 !important;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px !important;
+  font-family: "Florentia Med";
+  padding-left: 15px;
+}
+.booking-form-fixed ::placeholder {
+  color: #f1f1f2;
+  opacity: 1.5;
+  /* padding-left: 10px; */
+}
+/* about us */
+
+.aboutus {
+  background-color: #f1f1f2;
+  height: auto;
+  width: 100%;
+  /* padding:75px 75px 35px 100px !important; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+.aboutus .content {
+  height: 100%;
+  /* width: 70%; */
+}
+.aboutus .content .title {
+  color: #c7b283;
+  /* font-size: 2.5em; */
+  font-family: "Florentia Med";
+}
+.aboutus .content .main-text {
+  width: 90%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: #4b555c;
+  /* font-size: 1em; */
+  font-size: 14px;
+
+  font-family: "Florentia";
+}
+.aboutus-logo-container {
+  height: 100%;
+}
+.logo-about {
+  margin-top: 20px;
+  height: auto;
+  width: 250px;
+  float: right;
+}
+.logo-about img {
+  height: 100% !important;
+  width: 100% !important;
+}
+.aboutus-logo {
+  margin: 0 auto;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  height: auto;
+}
+.aboutus-underline {
+  content: url("../images/after-text.png");
+  width: 100%;
+}
+
+.readmore-button {
+  border: 1px solid #c7b283 !important;
+  background-color: #c7b283 !important;
+  color: white !important;
+  height: auto;
+  width: auto;
+  font-size: 14px !important;
+  border-radius: 0px !important;
+  margin-top: 25px;
+  font-family: "Florentia Med";
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  /* padding-left: 0px; */
+  /* align-items: center;
+    text-align: center; */
+}
+/* About us page */
+.aboutus-page {
+  background-color: #f1f1f2;
+  height: auto;
+  width: 100%;
+  /* padding:75px 75px 35px 100px !important; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+.aboutus-page .content {
+  height: 100%;
+  /* width: 70%; */
+}
+.aboutus-page .content .title {
+  color: #c7b283;
+  /* font-size: 2.5em; */
+  font-family: "Florentia Med";
+}
+.aboutus-page .content .main-text {
+  width: 90%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: #7f7f6e;
+  /* font-size: 1em; */
+  font-size: 14px;
+
+  font-family: "Florentia";
+}
+.aboutus-page .aboutus-logo .img1 {
+  margin-right: 20px;
+}
+.book-btn {
+  border: 1px solid !important;
+  background-color: #c7b283 !important;
+  color: white !important;
+  height: 60px;
+  width: auto;
+  font-size: 14px !important;
+  border-radius: 0px !important;
+  margin-top: 35px;
+  font-family: "Florentia Med";
+}
+
+/* booking */
+.booking {
+  background-color: #4b555c;
+  padding: 75px 75px 35px 75px !important;
+}
+.booking .content {
+  height: 100%;
+  width: 100%;
+}
+.booking .content .title {
+  color: #f1f1f2;
+  font-size: 2em;
+  font-family: "Florentia Med";
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+.book-button {
+  background-color: #f1f1f2 !important;
+  color: #4b555c !important;
+  height: 50px;
+  width: auto;
+  border: 1px solid #f1f1f2;
+  border-radius: 0px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: "Florentia Med";
+}
+.book-button .button-text {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 9px !important;
+}
+.booking-form input[type="text"],
+input[type="number"] {
+  height: 50px;
+  width: 200px;
+  border: 1px solid #f1f1f2;
+  border-radius: 0px !important;
+  background-color: transparent;
+  color: #f1f1f2 !important;
+  margin-right: 20px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  font-family: "Florentia Med";
+  padding-left: 15px;
+}
+.booking-form ::placeholder {
+  color: #f1f1f2;
+  opacity: 1.5;
+  /* padding-left: 10px; */
+}
+/* Rooms & suits */
+.rooms-suits {
+  background-color: #4b555c;
+  padding-top: 50px;
+}
+.rooms-suits .small-title {
+  font-size: 16px;
+  color: white;
+  width: 25%;
+  /* margin-left: 25px;
+    margin-right:25px; */
+  font-family: "Florentia Med";
+  text-align: center;
+}
+.rooms-suits .title {
+  margin-top: 15px;
+  margin-bottom: 40px;
+  font-size: 2em;
+  letter-spacing: 3px;
+  font-family: "Florentia Med";
+  color: #c7b283;
+}
+.rooms-underline-before {
+  content: url(../images/before.png);
+  width: 30%;
+}
+.rooms-underline-after {
+  content: url(../images/after.png);
+  width: 30%;
+}
+.rooms-underline {
+  border-bottom: 1px solid #c7b283;
+  width: 30%;
+}
+.rooms-suits .title a {
+  color: #c7b283;
+  text-decoration: none;
+}
+/* .rooms-suits .title a:hover {
+  border-bottom: 1px solid #4b555c;
+} */
+.rooms-suits .title a:hover {
+  border-bottom: 1px solid #4b555c;
+}
+.room-content {
+  height: 100%;
+  width: 100%;
+}
+.room-contents {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.room-contents img {
+  border: 1px solid #c7b283;
+  object-fit: cover;
+}
+.room-contents .content .main-text {
+  width: 90%;
+  margin-top: 35px;
+  /* margin-bottom:35px; */
+  color: white;
+  /* font-size: 1em; */
+  font-size: 14px;
+  font-family: "Florentia";
+}
+
+.room-suits-container .room-image-container {
+  height: 400px;
+  width: 70%;
+}
+.room-suits-container .room-image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.room-suits-container .room-details-container {
+  height: auto;
+  width: 70%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.room-name {
+  font-family: "Florentia Med";
+  color: #c7b283;
+  margin-bottom: 30px;
+}
+.room-description {
+  font-family: "Florentia";
+  color: #7f7f6e;
+  width: 70%;
+}
+.room-description p {
+  font-size: 14px;
+  letter-spacing: 1px !important;
+  line-height: 25px !important;
+}
+.room-details-container .aboutus-underline {
+  width: 80%;
+}
+.room-button {
+  border: 1px solid !important;
+  background-color: white !important;
+  color: #7f7f6e !important;
+  border-color: #c7b283 !important;
+  height: 50px;
+  width: auto;
+  font-size: 14px !important;
+  border-radius: 0px !important;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-right: 35px;
+  font-family: "Florentia Med";
+}
+.room-details-container .book-btn {
+  border: 1px solid !important;
+  background-color: #c7b283 !important;
+  color: white !important;
+  height: 50px;
+  width: auto;
+  font-size: 14px !important;
+  border-radius: 0px !important;
+  margin-top: 20px;
+  font-family: "Florentia Med";
+}
+/* .rooms-suits .row{
+    max-height: 300px !important;
+    margin-bottom:50px;
+} */
+.room-first-row {
+  height: 300px;
+  width: 80%;
+  margin-left: 40px !important;
+  margin-bottom: 20px !important;
+}
+.rooms-suits .card-img-top {
+  height: 350px !important;
+}
+.room-first-row img {
+  border: 1px solid #7f7f6e;
+  border-radius: 0px;
+  height: 100%;
+  width: 90%;
+  margin-left: 20px;
+}
+.room-second-row {
+  height: 400px;
+  width: 80%;
+  margin-left: 40px !important;
+  margin-bottom: 20px !important;
+}
+.room-second-row .room-detail {
+  height: 400px;
+  width: 90%;
+  margin-top: 50px;
+  border: 1px solid #7f7f6e;
+  border-radius: 0px;
+}
+.room-second-row img {
+  height: 300px;
+  width: 90%;
+  margin-top: 42px;
+  border: 1px solid #7f7f6e;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+.room-title {
+  color: #c7b283;
+  letter-spacing: 1px;
+  margin: 30px;
+  font-family: "Florentia Med";
+}
+.room-title sub {
+  font-weight: 350 !important;
+  font-size: 14px;
+  padding-left: 15px;
+}
+.room-small-detail {
+  height: auto;
+  width: auto;
+  margin-left: 30px !important;
+}
+.room-small-detail .text {
+  color: #7f7f6e;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 14px;
+  padding-left: 15px;
+  margin-right: 40px;
+  height: auto;
+  font-family: "Florentia";
+}
+.room-small-detail .main-text {
+  color: #7f7f6e;
+  text-align: left;
+  font-size: 14px;
+  padding-top: 15px;
+  width: 90%;
+  height: auto;
+  font-family: "Florentia";
+}
+.room-content .card {
+  margin-bottom: 50px;
+  border: none !important;
+  /* max-width: 100vw !important; */
+}
+.room-details {
+  height: auto !important;
+}
+.room-buttons {
+  /* margin-top:25px; */
+  height: auto;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.room-details span {
+  float: right;
+}
+.features-button {
+  border: 1px solid !important;
+  background-color: white !important;
+  color: #7f7f6e !important;
+  border-color: #c7b283 !important;
+  height: 60px;
+  width: 200px;
+  font-size: 14px !important;
+  border-radius: 0px !important;
+  margin-top: 35px;
+  margin-right: 35px;
+  margin-left: 32px;
+  font-family: "Florentia Med";
+}
+.bottom-left {
+  position: relative;
+  bottom: 60px;
+  left: 50px;
+  color: white;
+  font-family: "Florentia Med";
+}
+.centered-title {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 4.5em;
+  letter-spacing: 50px;
+  font-family: "Florentia";
+}
+.room-details-carousel {
+  /* background: rgb(199, 178, 131, 0.7); */
+  height: 375px;
+  width: 100%;
+}
+.room-suites-details-carousel {
+  /* background: rgb(199, 178, 131, 0.7); */
+  height: 400px;
+  width: 100%;
+}
+.room-carousel-second {
+  height: 375px;
+}
+.layer {
+  background: rgb(199, 178, 131, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 375px;
+}
+.layer-text {
+  margin-top: 50px;
+  margin-left: 35px;
+}
+.layer-text .title {
+  font-family: "Florentia Med";
+  font-size: 18px;
+  color: white;
+}
+.layer-text .description {
+  font-family: "Florentia";
+  font-size: 14px;
+  color: white;
+  width: 80%;
+}
+.layer-text .explore-link a {
+  font-family: "Florentia Med";
+  font-size: 14px;
+  color: white !important;
+}
+.layer-text .explore-link a:hover {
+  text-decoration: none;
+}
+/* Packages */
+.packages {
+  background-color: #f1f1f2;
+  /* padding:75px 75px 35px 75px !important; */
+  padding-top: 50px;
+}
+.package-container {
+  width: auto;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+  justify-content: center;
+  /* align-items: center; */
+}
+.packages .title {
+  font-size: 2em;
+  letter-spacing: 3px;
+  color: #c7b283;
+  /* margin-left:25px;
+    margin-right:25px; */
+  width: 25%;
+  text-align: center;
+  font-family: "Florentia Med";
+}
+.packages-underline-before {
+  content: url(../images/white-before.png);
+  width: 30%;
+}
+.packages-underline-after {
+  content: url(../images/white-after.png);
+  width: 30%;
+}
+.card-img {
+  /* border: 1px solid #7f7f6e; */
+  border-radius: 0px !important;
+}
+.packages .card {
+  border: none !important;
+  height: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 0px !important;
+}
+.card-body {
+  /* border-style: none solid solid solid !important;
+  border-color: #7f7f6e !important;
+  border-width: 1px !important; */
+  border-radius: 0px !important;
+  background-color: #4b555c;
+  height: auto !important;
+}
+.packages .package-title {
+  color: #c7b283;
+  padding-left: 25px;
+  padding-top: 25px;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+  height: 50px;
+  font-family: "Florentia Med";
+}
+.packages .package-link {
+  color: white;
+  padding-left: 25px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-family: "Florentia Med";
+}
+.package-underline {
+  border-bottom: 1px solid white;
+  width: auto;
+  margin: 20px;
+}
+.packages .arrow {
+  color: white;
+  float: right;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+.packages .card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+/* Restaurant */
+.restaurant {
+  background-color: #4b555c;
+  padding-top: 50px !important;
+  padding-bottom: 35px !important;
+}
+.restaurant .title {
+  font-size: 2em;
+  letter-spacing: 3px;
+  color: white;
+  /* margin-left:25px;
+    margin-right:25px; */
+  width: 25%;
+  text-align: center;
+  font-family: "Florentia Med";
+}
+.morini-banner {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+.morini-banner .carousel-caption {
+  /* background: rgb(199, 178, 131, 0.5); */
+  background-color: #4b555c;
+  color: white;
+  height: auto;
+  right: 0% !important;
+  left: 0% !important;
+  /* padding-left: 25px; */
+  padding-top: 40px;
+  font-family: "Florentia";
+  letter-spacing: 1px;
+}
+.morini-banner .carousel-inner .carousel-item img.morini-slider {
+  width: 100vw;
+  height: 90vh;
+  object-fit: cover;
+}
+.morini-banner p {
+  margin-left: 100px;
+  width: 80%;
+  text-align: left;
+  /* font-weight: 1000; */
+  /* font-size: 1em; */
+  font-size: 14px;
+}
+.menu-btn {
+  background-color: #c7b283 !important;
+  color: #4b555c !important;
+  height: 50px;
+  width: 200px;
+  border-radius: 0px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: "Florentia Med";
+}
+/* Spa & Wellness */
+/* #spa-wellness {
+  margin-top: 128px;
+} */
+.spa-wellness {
+  background-color: #f1f1f2;
+  /* padding:75px 75px 35px 75px !important; */
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.spa-wellness .content {
+  /* padding-left: 150px;
+    padding-right: 150px; */
+  /* padding-bottom: 50px; */
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.spa-wellness .content2 {
+  padding-left: 10%;
+}
+.spa-wellness .small-title {
+  font-size: 16px;
+  color: #7f7f6e;
+  /* margin-left: 25px;
+    margin-right:25px; */
+  width: 25%;
+  font-family: "Florentia Med";
+  text-align: center;
+}
+.spa-wellness .title {
+  color: #4b555c;
+  margin-top: 15px;
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: "Florentia Med";
+}
+.spa-image {
+  width: 100%;
+  margin-top: 30px;
+  float: none;
+}
+.spa-image img {
+  /* width:1000px; */
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.spa-wellness .content2 .title {
+  text-align: start;
+  color: #c7b283;
+  /* font-size: 2.5em; */
+  font-family: "Florentia Med";
+}
+.spa-wellness .content2 .main-text {
+  width: 85%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #7f7f6e;
+  font-size: 14px;
+  font-family: "Florentia";
+}
+.spa-button {
+  border: 1px solid !important;
+  background-color: white !important;
+  color: #7f7f6e !important;
+  border-color: #c7b283 !important;
+  height: 50px;
+  /* width:300px; */
+  width: auto;
+  font-size: 14px !important;
+  border-radius: 0px !important;
+  letter-spacing: 1px;
+  margin-top: 35px;
+  margin-right: 35px;
+  /* margin-bottom:10px; */
+  font-family: "Florentia Med";
+}
+.spa-wellness .readmore-button {
+  font-family: "Florentia Med";
+  font-size: 14px !important;
+}
+.spa-wellness .book-btn {
+  border: 1px solid !important;
+  background-color: #c7b283 !important;
+  color: white !important;
+  height: 50px;
+  width: auto;
+  font-size: 14px !important;
+  border-radius: 0px !important;
+  margin-top: 35px;
+  font-family: "Florentia Med";
+}
+
+.arena-image {
+  width: 100%;
+  margin-top: 50px;
+  /* background:url('../images/arena\ fitness\ center.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.arena-image img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.barbershop-image {
+  width: 100%;
+  margin-top: 35px;
+  /* background:url('../images/barbershop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.barbershop-image img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.spa-wellness-logo-container {
+  height: auto;
+  /* top:50%; */
+  /* position: absolute; */
+}
+.spa-wellness-logo-container .aboutus-logo img {
+  height: auto;
+  width: 175px;
+}
+.meetings-underline-before {
+  content: url(../images/white-only.png);
+  width: 30%;
+}
+.meetings-underline-after {
+  content: url(../images/white-only2.png);
+  width: 30%;
+}
+@media screen and (max-width: 1450px) {
+  /* .spa-wellness .content{
+        padding-left: 100px;
+        padding-right: 100px;
+    } */
+}
+@media screen and (max-width: 1350px) {
+  /* .spa-wellness .content{
+        padding-left: 40px;
+        padding-right: 40px;
+    } */
+}
+@media screen and (max-width: 1250px) {
+  /* .spa-wellness .content{
+        padding-left: 0px;
+        padding-right: 0px;
+    } */
+}
+/* Meetings & Gatherings */
+.meetings {
+  width: 100%;
+  height: auto;
+  background-color: #4b555c;
+  /* padding:75px 75px 35px 60px !important; */
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.meetings .small-title {
+  font-size: 16px;
+  color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  /* width: 25%; */
+  font-family: "Florentia Med";
+  text-align: center;
+}
+.meetings .title {
+  margin-top: 15px;
+  font-size: 2em;
+  color: #c7b283;
+  letter-spacing: 3px;
+  font-family: "Florentia Med";
+}
+.meetings-underline {
+  border-bottom: 1px solid white;
+  width: 30%;
+}
+.meeting-content {
+  width: auto;
+  height: 500px;
+  margin-top: 35px;
+}
+.meeting-content img {
+  border: 1px solid black;
+  border-radius: 0px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.private-office {
+  background-color: #c7b283;
+  width: 100%;
+  height: auto;
+  margin-top: 35px;
+}
+.private-title {
+  font-size: 1.5em;
+  letter-spacing: 5px;
+  color: #4b555c;
+  margin: 75px 0px 35px 35px;
+  font-family: "Florentia Med";
+}
+.private-text {
+  width: 80%;
+  margin: 35px 0px 35px 35px;
+  color: #f1f1f2;
+  font-size: 14px;
+  font-family: "Florentia";
+}
+/* Experiences */
+.experiences {
+  width: 100%;
+  height: auto;
+  background-color: #f1f1f2;
+  /* padding:75px 75px 35px 75px !important;
+     */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.experiences .title {
+  font-size: 2em;
+  letter-spacing: 3px;
+  font-family: "Florentia Med";
+  color: #4b555c;
+  /* margin-right: 25px;
+    margin-left: 25px; */
+  width: 25%;
+  text-align: center;
+}
+.experiences .card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+  border-radius: 0px !important;
+}
+.experiences .card {
+  margin-bottom: 50px;
+  background-color: #f1f1f2;
+}
+.experiences p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  font-family: "Florentia";
+  color: #4b555c;
+  font-size: 14px;
+  width: 80%;
+}
+.experiences #ExpcarouselExampleControls {
+  border: 1px solid #c7b283;
+}
+.experiences .place-title {
+  color: white;
+  font-family: "Florentia";
+  padding-bottom: 30px;
+}
+.experiences .place-details {
+  color: white;
+  font-family: "Florentia";
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+.experiences .carousel-inner {
+  height: 200px;
+}
+.experiences .carousel-item {
+  margin: 35px 50px 0px 150px;
+  /* height:auto; */
+  width: 75%;
+}
+.exp-read {
+  background-color: #c7b283;
+  width: 100%;
+  height: 60px;
+  border: none;
+  color: white;
+  font-family: "Florentia";
+}
+.experience-underline {
+  border-bottom: 1px solid #c7b283;
+  width: 20%;
+}
+/* Footer */
+.footer {
+  background-color: #f1f1f2;
+  font-family: "Florentia";
+}
+.footer-links {
+  padding-top: 75px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: auto;
+  font-size: 14px;
+}
+.footer-copyright {
+  height: 100px;
+  width: 100%;
+  background-color: #4b555c;
+  color: white;
+}
+.links a {
+  color: #4b545c;
+}
+.links a:hover {
+  color: #c7b283;
+  text-decoration: none;
+}
+.footer-copyright a {
+  color: white;
+}
+.copyright-text {
+  padding-top: 40px;
+  padding-right: 40px;
+  float: right;
+}
+.footer-image {
+  float: left;
+  margin-left: 50px;
+  height: 90px;
+  width: 50px;
+}
+.footer-underline {
+  border-bottom: 1px solid #c7b283;
+  padding-left: 75px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.section-title h2 {
+  /* padding-left:5px; */
+  margin: 0px;
+}
+.section-title img {
+  height: 40px;
+  width: auto;
+}
+@media (min-width: 768px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 100%;
+    *width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+    max-width: 14.285714285714285714285714285714% !important;
+    flex: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+    max-width: 14.285714285714285714285714285714% !important;
+    flex: none !important;
+  }
+}
+/* Contact */
+.contact {
+  margin-bottom: 30px;
+  font-family: "Florentia";
+  color: #4b545c;
+}
+/* About us Page */
+
+.aboutus-content {
+  background-color: #f1f1f2;
+  height: 100%;
+  width: 100%;
+  padding-top: 25px !important;
+  padding-bottom: 50px !important;
+  padding-right: 10% !important;
+  padding-left: 10% !important;
+  /* padding: 25px 50px 50px 50px !important; */
+  /* margin-bottom: 50px; */
+}
+.aboutus-content .content {
+  height: auto;
+  width: 100%;
+}
+.aboutus-content .row {
+  margin-top: 35px;
+}
+.aboutus-content .content .title {
+  color: #c7b283;
+  /* font-size: 2.5em; */
+  font-family: "Florentia Med";
+}
+.aboutus-content .content .main-text {
+  width: 90%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: #7f7f6e;
+  font-size: 14px;
+  font-family: "Florentia";
+  letter-spacing: 1px;
+}
+.aboutus-content img {
+  height: 500px;
+  width: 450px;
+  object-fit: cover;
+}
+.aboutus-content-underline {
+  border-bottom: 1px solid #c7b283;
+  width: 80%;
+}
+.aboutus-underline-graphics {
+  content: url(../images/aboutus-graphics.png);
+  max-width: 100%;
+}
+.aboutus-footer .footer {
+  background-color: #c7b283;
+  font-family: "Florentia";
+}
+.aboutus-footer .footer-links {
+  padding-top: 75px;
+  padding-left: 75px !important;
+  width: auto;
+}
+.aboutus-footer .links a {
+  color: black;
+}
+.aboutus-footer .links a:hover {
+  color: #f1f1f2;
+}
+.aboutus-footer .footer-underline {
+  border-bottom: 1px solid black;
+  padding-left: 75px;
+  width: 95%;
+  margin-bottom: 35px;
+}
+/* Responsiveness */
+@media screen and (max-width: 1290px) {
+  .booking-nav1 {
+    display: inline-block;
+    z-index: 1;
+  }
+  .booking-nav {
+    display: none;
+  }
+  nav .navbar-toggler {
+    z-index: 1;
+  }
+}
+@media screen and (min-width: 1290px) {
+  .booking-nav {
+    display: inline-block;
+  }
+  .booking-nav1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1300px) {
+  /* .room-first-row{
+        height: 350px;
+    } */
+  .room-first-row img {
+    border: 1px solid #7f7f6e;
+    border-radius: 0px;
+    height: 100%;
+    width: 90%;
+    margin-left: 20px;
+  }
+  /* .room-second-row{
+        height: 350px;
+    } */
+  .room-second-row img {
+    height: 300px;
+    width: 90%;
+    margin-top: 37px;
+    border: 1px solid #7f7f6e;
+    border-radius: 0px;
+    margin-left: 20px;
+  }
+  .room-second-row .room-detail {
+    height: auto;
+    width: 90%;
+    margin-top: 50px;
+    border: 1px solid #7f7f6e;
+    border-radius: 0px;
+  }
+  .room-buttons {
+    margin-top: 55px;
+  }
+  .room-details span {
+    display: block !important;
+    float: none;
+    margin-top: 20px;
+  }
+  .room-title sub {
+    font-weight: 350 !important;
+    font-size: 14px;
+  }
+  .room-small-detail {
+    height: 50px;
+  }
+  .room-small-detail .text {
+    font-size: 14px;
+    margin-right: 15px;
+  }
+  .features-button {
+    width: 150px;
+    font-size: 14px !important;
+  }
+  .room-buttons .readmore-button {
+    width: 150px;
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .restaurant .packages-underline-after {
+    display: none;
+  }
+  .restaurant .packages-underline-before {
+    display: none;
+  }
+  .restaurant .title {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .packages .packages-underline-after {
+    display: none;
+  }
+  .packages .packages-underline-before {
+    display: none;
+  }
+  .packages .title {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .experiences .rooms-underline-after {
+    display: none;
+  }
+  .experiences .rooms-underline-before {
+    display: none;
+  }
+  .experiences .title {
+    width: 100%;
+  }
+  .room-contents {
+    display: block !important;
+  }
+  .packages .card {
+    width: 70%;
+    margin: 30px auto;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .aboutus .content .main-text {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .book-button {
+    background-color: white !important;
+    color: #7f7f6e !important;
+    height: 50px;
+    width: auto;
+    border: 1px solid white;
+    border-radius: 0px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-family: "Florentia Med";
+  }
+  .booking-form input[type="text"],
+  input[type="number"] {
+    height: 50px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 0px !important;
+    background-color: transparent;
+    color: white !important;
+    margin-right: 20px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    font-family: "Florentia Med";
+  }
+  .experiences .carousel-inner {
+    height: 250px;
+  }
+  .experiences .carousel-item {
+    margin: 35px 50px 0px 125px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .meeting-content img {
+    /* height: 50vh; */
+  }
+
+  .features-button {
+    width: auto;
+    font-size: 14px !important;
+  }
+  .room-buttons {
+    margin-top: 75px;
+  }
+  .video {
+    width: 80% !important;
+    height: auto !important;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .rooms-suits .card-body {
+    padding: 0px !important;
+  }
+}
+@media screen and (max-width: 1020px) {
+  /* .morini-banner .carousel-caption{
+        background: rgb(199, 178, 131, 0.5);
+        color:black;
+        height:auto;
+        right: 5% !important;
+        left:5% !important;
+        padding-left: 20px;
+        padding-top: 25px;
+        font-family: 'Florentia';
+    }
+    .menu-btn{
+        background:rgb(0,0,0,1) !important;
+        color: #c7b283 !important;
+        height: 50px;
+        width:auto;
+        border-radius: 0px !important;
+        font-size: 1em !important;
+        font-weight: 500 !important;
+        font-family: 'Florentia Med';
+        margin-top:50px;
+    }
+    .morini-banner p{
+        width:100% !important;
+    } */
+}
+@media screen and (max-width: 993px) {
+  .packages .package-link {
+    padding-left: 20px;
+  }
+  .rooms-suits {
+    /* padding-left: 100px !important; */
+  }
+  .room-content .card-img-top {
+    height: 400px !important;
+  }
+  .room-first-row {
+    padding-left: 100px;
+    float: none;
+    margin-left: 0px !important;
+  }
+  .room-second-row {
+    padding-left: 100px;
+    float: none;
+    margin-left: 0px !important;
+  }
+  .booking-fixed {
+    display: none !important;
+  }
+  nav {
+    margin-top: 0px !important;
+  }
+  .features-button {
+    width: auto;
+    font-size: 14px !important;
+  }
+  .room-buttons .readmore-button {
+    width: auto;
+    font-size: 14px !important;
+  }
+  .footer {
+    background-color: #f1f1f2;
+    font-family: "Florentia";
+  }
+  .links {
+    margin-right: 50px;
+  }
+  .centered-title2 {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 2.5em;
+    letter-spacing: 20px;
+    font-family: "Florentia";
+  }
+  .room-buttons {
+    margin-top: 0px;
+  }
+  .room-small-detail {
+    height: auto;
+  }
+  .features-button {
+    margin-top: 0px;
+  }
+  .book-btn {
+    margin-top: 0px;
+  }
+  .room-small-detail p {
+    display: block;
+  }
+  .spa-wellness .book-btn {
+    margin-top: 35px;
+  }
+  .room-content .card-body {
+    padding: 0px !important;
+  }
+}
+@media screen and (max-width: 935px) {
+  .links {
+    margin-right: 45px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .room-content .card-img-top {
+    height: 300px !important;
+  }
+  .room-first-row {
+    height: 275px;
+  }
+  .room-second-row {
+    height: auto;
+  }
+  .room-second-row .room-detail {
+    height: auto;
+  }
+  .room-second-row img {
+    height: 275px;
+    margin-top: 50px;
+  }
+  .meeting-content img {
+    /* height: 60vh; */
+  }
+  /* .footer-links {
+    padding-top: 75px;
+    padding-left: 10px !important;
+    width: auto;
+  } */
+  .links {
+    margin-right: 40px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .experiences .carousel-inner {
+    height: 275px;
+  }
+  .room-small-detail .text {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .aboutus-logo {
+    margin-top: 20px;
+  }
+  .morini-banner p {
+    margin-left: 50px;
+  }
+  .menu-btn {
+    width: auto;
+  }
+}
+@media screen and (max-width: 884px) {
+  .aboutus-logo {
+    top: 20%;
+  }
+  /* Booking */
+  .book-button {
+    margin-top: 50px !important;
+  }
+  .booking-form input[type="text"] {
+    margin-bottom: 0px !important;
+  }
+  .booking-form input[type="number"] {
+    margin-bottom: 0px !important;
+  }
+  .features-button {
+    height: 50px;
+  }
+  .room-buttons .readmore-button {
+    height: 50px;
+  }
+  /* .room-small-detail{
+        height: 50px;
+    } */
+  .card-img-top {
+    height: 300px !important;
+  }
+  .packages .card-img-top {
+    height: 250px !important;
+  }
+  /* .packages .arrow {
+    display: none;
+  } */
+  /* .spa-wellness .content{
+        padding-left: 15px;
+        padding-bottom: 50px;
+    } */
+  .meeting-content img {
+    /* height: 50vh; */
+  }
+  .footer-links {
+    /* padding-left: 50px !important; */
+  }
+  .links {
+    margin-right: 35px;
+    font-size: 14px;
+  }
+  .experiences .carousel-inner {
+    height: 275px;
+  }
+  .experiences .carousel-item {
+    margin: 35px 50px 0px 100px;
+    width: 70%;
+  }
+  .booking .content .title {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 1.5em;
+    width: 350px;
+  }
+  .booking .content {
+    margin-bottom: 50px;
+  }
+  .book-button {
+    margin-top: 0px !important;
+    width: 200px;
+  }
+  .booking-form input[type="text"] {
+    margin-top: 0px;
+    width: 200px;
+    margin-bottom: 25px !important;
+  }
+  .booking-form input[type="number"] {
+    margin-right: 20px;
+    width: 200px;
+    margin-top: 0px;
+    margin-bottom: 25px !important;
+  }
+  /* .rooms-underline-before {
+        content: url(../images/before-crop.png);
+        width: 30%;
+        height:25px;
+    }
+    .rooms-underline-after {
+        content: url(../images/after-crop.png);
+        width: 30%;
+        height:25px;
+    } */
+  /* .rooms-suits .small-title{
+        margin-right:10px;
+        margin-left: 10px;
+    } */
+  /* .packages-underline-before{
+        content: url(../images/white-before-crop.png);
+        width:30%;
+    }
+    .packages-underline-after{
+        content: url(../images/white-after-crop.png);
+        width:30%;
+    } */
+  .room-buttons {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .rooms-suits .book-btn {
+    height: 50px;
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 865px) {
+  /* .room-buttons{
+        margin-bottom:0px !important;
+    } */
+}
+@media screen and (max-width: 768px) {
+  .room-contents #carouselExampleSlidesOnly1 {
+    margin-bottom: 30px;
+  }
+  .room-first-row {
+    padding-left: 0px;
+  }
+  .room-second-row {
+    padding-left: 0px;
+  }
+  /* navbar */
+  /* About us */
+  .aboutus .content {
+    /* height:auto;
+        width: auto; */
+    margin: 0 auto;
+  }
+  .aboutus .content .title {
+    color: #c7b283;
+    font-size: 2em;
+    font-family: "Florentia Med";
+  }
+  .aboutus .content .main-text {
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: #7f7f6e;
+    font-size: 14px;
+    font-family: "Florentia";
+  }
+  .aboutus-logo-container {
+    height: 100%;
+    width: 100%;
+  }
+
+  .aboutus-logo {
+    width: auto;
+    height: auto;
+  }
+  /* .aboutus-logo .img1{
+        width:75px;
+        height:100px;
+    }
+    .aboutus-logo .img2{
+        width:100px;
+        height:100px;
+    } */
+  .room-buttons {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .readmore-button {
+    /* height: 60px; */
+    width: 200px;
+    font-size: 14px !important;
+  }
+  .room-first-row {
+    height: 325px;
+    width: 100%;
+  }
+  .room-first-row img {
+    border: 1px solid #7f7f6e;
+    border-radius: 0px;
+    width: 100%;
+    margin-left: 0px !important;
+  }
+  .room-second-row {
+    height: 350px;
+    width: 100%;
+  }
+  .room-second-row .room-detail {
+    height: 325px;
+    width: 90%;
+    margin-top: 50px;
+    border: 1px solid #7f7f6e;
+    border-radius: 0px;
+  }
+  .room-second-row img {
+    width: 100%;
+    height: 325px;
+    margin-top: 25px;
+    border: 1px solid #7f7f6e;
+    border-radius: 0px;
+    margin-left: 0px !important;
+  }
+  .packages .arrow {
+    display: block;
+  }
+  .card-img-top {
+    height: 350px !important;
+  }
+  .meeting-content img {
+    height: 60vh;
+  }
+  /* .morini-banner .carousel-caption {
+    background: transparent;
+    height: auto;
+    padding-top: 15px;
+  } */
+  /* .morini-banner .carousel-caption p {
+    display: none;
+  } */
+
+  /* .morini-banner p {
+    width: 100% !important;
+  } */
+  .experiences .carousel-inner {
+    height: 375px;
+  }
+  .experiences .carousel-item {
+    margin: 35px 50px 0px 75px;
+    width: 70%;
+  }
+  .contact {
+    text-align: center;
+  }
+  .contact iframe {
+    float: none !important;
+  }
+
+  .room-contents {
+    margin-bottom: 0px;
+  }
+  .room-contents .content {
+    margin-bottom: 20px;
+  }
+  .navbar-nav {
+    margin-top: 20px;
+  }
+  .spa-wellness .content .main-text {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 670px) {
+  .logo-container {
+    margin: auto;
+  }
+  .morini-banner {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* #banner {
+    padding-top: 245px;
+  } */
+  #about-us {
+    padding-top: 260px;
+  }
+  #rooms-suites {
+    padding-top: 260px;
+  }
+  /* .banner {
+    height: 300px;
+  } */
+  /* .room-banner {
+    padding-top: 260px;
+  } */
+  .aboutus {
+    padding: 35px 15px 15px 25px !important;
+  }
+  .aboutus .content {
+    height: auto;
+    /* width: 100%; */
+  }
+  .aboutus .content .title {
+    color: #c7b283;
+    font-size: 2em;
+    font-family: "Florentia Med";
+  }
+  .aboutus .content .main-text {
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 14px;
+  }
+  .aboutus-logo-container {
+    height: auto;
+    width: 100%;
+  }
+
+  .aboutus-logo {
+    margin-top: 5vh;
+    width: auto;
+    height: auto;
+  }
+  .rooms-suits {
+    /* padding:35px 15px 15px 25px !important; */
+  }
+  .rooms-suits .title {
+    margin-top: 30px;
+    font-size: 2em;
+  }
+  .rooms-underline2 {
+    width: 50%;
+    margin-left: 25px;
+  }
+  .room-first-row {
+    height: 300px;
+  }
+  .room-second-row {
+    height: 300px;
+  }
+  .room-second-row .room-detail {
+    height: 300px;
+  }
+  .room-second-row {
+    margin-bottom: 37px;
+  }
+  .packages {
+    padding: 35px 15px 15px 25px !important;
+  }
+  .packages .title {
+    font-size: 2em;
+  }
+  .morini-banner {
+    width: 100%;
+    height: auto;
+  }
+  .menu-btn {
+    height: auto;
+    width: auto;
+  }
+  .centered-title {
+    font-size: 3em;
+    letter-spacing: 25px;
+  }
+  /*
+      .centered-title2{
+        top: 40%;
+        left: 55%;
+        font-size: 1.5em;
+        letter-spacing: 10px;
+      }
+      .centered-sub{
+        font-size: 1em;
+        letter-spacing: 20px;
+      } */
+  /* Spa & Wellness */
+  .spa-wellness {
+    background-color: #f1f1f2;
+    /* padding: 35px 25px 15px 25px !important; */
+  }
+  .spa-wellness .content {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+  }
+  /* .spa-wellness .content2 {
+    padding-left: 0px !important;
+  } */
+  .spa-wellness .package-page {
+    margin-top: 0px !important;
+  }
+  .spa-wellness .small-title {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .spa-wellness .title {
+    font-size: 2em;
+    text-align: center;
+  }
+  /* .spa-image {
+    height: 400px;
+  } */
+  .spa-wellness .content .title {
+    color: #c7b283;
+    font-size: 2em;
+    font-family: "Florentia Med";
+  }
+  .spa-wellness .content .main-text {
+    width: 100%;
+    font-size: 14px;
+  }
+  /* .arena-image {
+    height: 400px;
+  } */
+  /* .barbershop-image {
+    height: 400px;
+  } */
+  /* Meetings & Gatherings */
+  /* .meetings {
+    padding: 35px 15px 15px 25px !important;
+  } */
+  .meetings .small-title {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .meetings .title {
+    font-size: 2em;
+    text-align: center;
+  }
+  .meetings-underline {
+    border-bottom: 1px solid white;
+    width: 50%;
+  }
+  .private-text {
+    width: 80%;
+    margin: 35px 0px 35px 35px;
+    color: #f1f1f2;
+    font-size: 14px;
+    font-family: "Florentia";
+  }
+  /* Experiences */
+  /* .experiences {
+    padding: 35px 15px 15px 25px !important;
+  } */
+  .experiences .title {
+    font-size: 2em;
+    text-align: center;
+  }
+  .experiences p {
+    margin-left: 25px;
+    width: 80%;
+  }
+  .experiences .place-details {
+    margin-bottom: 50px;
+  }
+  .rooms-underline-before {
+    content: url(../images/before-mobile.png);
+    width: 30%;
+    height: 25px;
+  }
+  .rooms-underline-after {
+    content: url(../images/after-mobile.png);
+    width: 30%;
+    height: 25px;
+  }
+  .rooms-suits .small-title {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .packages-underline-before {
+    content: url(../images/white-before-mobile.png);
+    width: 30%;
+  }
+  .packages-underline-after {
+    content: url(../images/white-after-mobile.png);
+    width: 30%;
+  }
+  .meetings-underline-before {
+    content: url(../images/white-only-mobile.png);
+    width: 30%;
+  }
+  .meetings-underline-after {
+    content: url(../images/white-only2-mobile.png);
+    width: 30%;
+  }
+  .packages .card {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .room-suits-container .room-image-container {
+    height: 375px;
+    width: 80%;
+  }
+  .room-contents {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .room-contents .content {
+    margin-left: 0px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-links {
+    padding-left: 0.25% !important;
+    padding-right: 0.25% !important;
+    font-size: 12px !important;
+    /* margin-right: 30px !important; */
+  }
+  .footer-links li {
+    font-size: 12px;
+  }
+  .col-sm-1,
+  .col-md-1 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .links {
+    margin-right: 33px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer-links li {
+    font-size: 14px;
+  }
+  .links {
+    margin-right: 5% !important;
+    margin-left: 5% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .experiences .carousel-item {
+    margin: 35px 0px 0px 35px;
+  }
+  .booking-nav1 {
+    display: none !important;
+  }
+  .mobile-menu {
+    display: block !important;
+  }
+  #about-us-page {
+    margin-top: 135px !important;
+  }
+  #spa-wellness-page {
+    margin-top: 135px !important;
+  }
+  #rooms-suites-page {
+    margin-top: 135px !important;
+  }
+  .room-suits-container .room-image-container {
+    height: 325px;
+  }
+  .footer-image {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .footer-copyright {
+    height: 140px !important;
+  }
+  .footer-image img {
+    display: block;
+    margin: 0 auto !important;
+  }
+  .copyright-text {
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    float: none !important;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /* .centered-title2{
+        top: 30%;
+        left: 55%;
+        font-size: 30px !important;
+        letter-spacing: 5px;
+      } */
+  /* .room-buttons{
+        margin-bottom: 0px !important;
+    } */
+  .contact iframe {
+    width: 100%;
+  }
+  .room-contents {
+    width: 100%;
+  }
+  .package-container {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+  .spa-image img {
+    height: 375px;
+  }
+  .meeting-content,
+  .meeting-content img {
+    height: 375px;
+  }
+  .meetings-row {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  /* .card-img-top {
+    height: 375px !important;
+  } */
+  .exp-img-row {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+}
+@media screen and (max-width: 630px) {
+  .experiences .carousel-inner {
+    height: 325px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .experiences .carousel-inner {
+    height: 350px;
+  }
+  .aboutus-logo-container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  .aboutus-logo {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 485px) {
+  .experiences .carousel-inner {
+    height: 400px;
+  }
+  .experiences .carousel-item {
+    margin: 35px 50px 50px 45px;
+    width: 78%;
+  }
+  iframe {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 440px) {
+  .room-content .card-body {
+    padding: 0 !important;
+  }
+  .experiences .carousel-inner {
+    height: 425px;
+  }
+  .experiences .carousel-item {
+    margin: 35px 50px 50px 45px;
+    width: 78%;
+  }
+  /* .language-button {
+    width: auto !important;
+  } */
+}
+@media screen and (max-width: 430px) {
+  .member-button {
+    height: 30px;
+    width: auto;
+    margin: 7px;
+    font-size: 14px !important;
+  }
+  .booknow-button {
+    height: 30px;
+    width: auto;
+    margin: 7px;
+    font-size: 14px !important;
+  }
+  .language-button {
+    height: 35px;
+    width: 75px;
+    margin-top: 5px !important;
+    padding: 0px !important;
+  }
+  .booking-nav1 img {
+    height: 30px;
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .rooms-suits .title {
+    font-size: 28px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .banner {
+    height: 100vh;
+  }
+  .experiences .carousel-inner {
+    height: 450px;
+  }
+  .room-buttons {
+    margin-top: 100px;
+  }
+  .room-small-detail .text {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: 20px;
+  }
+  .spa-wellness .content {
+    padding-bottom: 0px !important;
+  }
+  #spa-wellness-page .spa-image .carousel-item > img {
+    height: 275px !important;
+  }
+  /* .spa-image {
+    height: 300px;
+  } */
+}
+@media screen and (max-width: 365px) {
+  .booking-nav1 {
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .member-button {
+    height: 30px;
+    width: auto;
+    margin: 2px;
+    font-size: 14px !important;
+  }
+  .booknow-button {
+    height: 30px;
+    width: auto;
+    margin: 2px;
+    font-size: 14px !important;
+  }
+  .language-button {
+    height: 35px;
+    width: 50px;
+    margin-top: 0px !important;
+    padding: 0px !important;
+  }
+  .booking-nav1 img {
+    height: 30px;
+    padding-top: 0px;
+  }
+}
+
+/* Room single */
+
+.room-banner {
+  height: 450px;
+  width: 100%;
+  margin-top: 130px;
+}
+
+.room-banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.price-container {
+  height: 130px;
+  width: 100%;
+  background-color: #4b555c;
+}
+.price-container .price {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 50px;
+  color: white;
+  font-family: Florentia;
+  font-size: 18px;
+}
+.price-container .price .price-room-detail {
+  float: right;
+  width: auto;
+}
+.price-text .text {
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+.floor-plan {
+  height: 400px;
+  width: 100%;
+}
+/* .floor-plan img{
+    height: 750px;
+    width:100%;
+} */
+.featured-rooms {
+  width: 100%;
+  height: auto;
+  background-color: #4b555c;
+  padding: 75px 75px 35px 75px !important;
+}
+.featured-rooms .title {
+  width: auto;
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-family: "Florentia Med";
+  color: white;
+  margin-right: 25px;
+  margin-left: 25px;
+  text-align: center;
+}
+.featured-rooms .card-img-top {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0px !important;
+  border: 1px solid #c7b283;
+}
+.featured-rooms .card {
+  margin-bottom: 50px;
+  margin-top: 75px;
+  background-color: #7f7f6e;
+}
+.featured-rooms .rooms-underline-before {
+  content: url(../images/before.png);
+  width: 33%;
+}
+.featured-rooms .rooms-underline-after {
+  content: url(../images/after.png);
+  width: 33%;
+}
+.video-tour {
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.video-tour img {
+  height: 100%;
+  width: 87%;
+  object-fit: cover;
+}
+.video-js .vjs-big-play-button {
+  background-color: transparent !important;
+  height: 3em !important;
+  width: 3em !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+  content: "" !important;
+  background-image: url("../images/Tour\ icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% calc(50% - 0px);
+  border: none !important;
+  box-shadow: none !important;
+}
+.rooms {
+  height: auto;
+  width: 100%;
+}
+.room-features {
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.room-tabs {
+  width: 87%;
+  height: auto;
+  /* background-color: #4b555c; */
+}
+.room-tabs .tab {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 16px;
+  font-family: Florentia;
+  width: 100%;
+  background-color: #4b555c;
+}
+
+.room-full-description {
+  /* width: 87%; */
+  height: auto;
+  /* padding-left: 20px; */
+}
+.room-full-description .title {
+  color: #c7b283;
+  font-family: Florentia;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  width: auto;
+}
+.room-full-description .title h1 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.room-full-description .title h2 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.room-full-description .title h3 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.room-full-description .title h4 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.room-full-description .title h5 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.room-full-description .title h6 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.room-full-description .descript {
+  color: #7f7f6e;
+  font-size: 14px;
+  font-family: Florentia;
+}
+.room-full-description .descript p {
+  margin-left: 50px;
+}
+.room-full-description .title img {
+  height: 30px;
+  width: 30px;
+}
+.overview {
+  height: auto;
+  width: 87%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.amenities {
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.in-room-media {
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.floor-plan {
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.floor-plan img {
+  height: auto;
+  width: 100%;
+}
+.rooms .room-features .room-tabs .row .tab .box:hover {
+  color: #c7b283;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.room-tabs .active {
+  color: #c7b283;
+}
+
+@media screen and (max-width: 800px) {
+  .booking-form input[type="text"] {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 730px) {
+  .booking-nav1 {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .logo-container {
+    margin: 0 auto;
+  }
+  .navbar-toggler {
+    margin: 0 auto;
+  }
+  .rooms-suits .small-title {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .footer-links {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+}
+/* .fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+} */
+.fade-in {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* *[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -140px;
+  height: 140px;
+  visibility: hidden;
+} */
+
+/* Treatments and Packages */
+.treatments {
+  width: 100%;
+  height: auto;
+  background-color: #4b555c;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.treatments .title {
+  font-size: 2em;
+  letter-spacing: 3px;
+  font-family: "Florentia Med";
+  color: white;
+  width: 25%;
+  text-align: center;
+}
+.treatments .treatments-container {
+  margin-top: 50px;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+  border: 1px solid #c7b283;
+  border-radius: none;
+}
+.treatments .treatments-container img {
+  object-fit: cover;
+}
+.treatments .treatments-container h1,
+.treatments .treatments-container h2,
+.treatments .treatments-container h3,
+.treatments .treatments-container h4,
+.treatments .treatments-container h5,
+.treatments .treatments-container h6 {
+  color: white;
+  font-family: "Florentia Med";
+  margin-bottom: 0px !important;
+  padding-top: 5px;
+}
+.treatments .treatments-container .spa-package-title {
+  margin-bottom: 15px;
+}
+.treatments .treatments-container .spa-package-title h1,
+.treatments .treatments-container .spa-package-title h2,
+.treatments .treatments-container .spa-package-title h3,
+.treatments .treatments-container .spa-package-title h4,
+.treatments .treatments-container .spa-package-title h5,
+.treatments .treatments-container .spa-package-title h6 {
+  color: #c7b283;
+  font-family: "Florentia Med";
+}
+.treatments .treatments-container p {
+  color: white;
+  font-size: 14px;
+  font-family: "Florentia";
+}
+.treatments-contact-form {
+  background-image: url("../images/SPA Page-06.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contact-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 50px;
+  width: 70%;
+}
+
+.contact-container .contact-form-title h1,
+.contact-container .contact-form-title h2,
+.contact-container .contact-form-title h3,
+.contact-container .contact-form-title h4,
+.contact-container .contact-form-title h5,
+.contact-container .contact-form-title h6 {
+  color: #c7b283;
+  font-family: "Florentia Med";
+  margin-bottom: 0px !important;
+  padding-top: 5px;
+  letter-spacing: 2px;
+}
+.contact-form form {
+  /* padding-top: 50px; */
+  padding-bottom: 50px;
+  color: white;
+  font-family: "Florentia";
+}
+.contact-form form input.form-controls {
+  color: #c7b283 !important;
+}
+.form-controls {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.contact-form form input {
+  border: 1px solid #c7b283;
+  border-radius: 0px;
+  background-color: transparent;
+}
+.timepicker {
+  width: 95% !important;
+}
+/* .contact-form form input[type="time"].form-control {
+  color: transparent !important;
+} */
+.contact-form form input.form-control {
+  color: white !important;
+}
+.contact-btn {
+  width: 47%;
+  font-family: "Florentia";
+  color: white;
+  background-color: #c7b283;
+  border: #c7b283;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 30px;
+  height: 50px;
+}
+.treatments table {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+.treatments table,
+td {
+  margin-top: 50px;
+  border: 1px solid #c7b283;
+  font-size: 20px;
+  font-family: "Florentia";
+  padding: 10px 40px;
+}
+.treatments table td.package-name {
+  color: #c7b283;
+  width: 70%;
+}
+.treatments table td.package-price {
+  color: white;
+  text-align: center;
+  width: 30%;
+}
+/* Spa page responsive */
+@media (max-width: 1050px) {
+  .treatments .title {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    width: 60%;
+  }
+  /* .rooms-underline-before {
+    width: auto;
+    height: 20px;
+  }
+  .rooms-underline-after {
+    width: auto;
+    height: 20px;
+  } */
+}
+@media (max-width: 992px) {
+  .spa-wellness-logo-container {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+  }
+  .spa-wellness-logo-container .aboutus-logo {
+    top: 0%;
+  }
+  .room-contents #carouselExampleSlidesOnly,
+  .room-contents #carouselExampleSlidesOnly2,
+  .room-contents #carouselExampleSlidesOnly3 {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 770px) {
+  .arena,
+  .barber {
+    margin-top: 0px !important ;
+  }
+}
+@media (max-width: 730px) {
+  #contact-us {
+    padding-top: 100px;
+  }
+  .arena,
+  .barber {
+    margin-top: 0px !important ;
+  }
+}
+@media (max-width: 730px) {
+  .rooms-underline-after {
+    display: none;
+  }
+  .rooms-underline-before {
+    display: none;
+  }
+}
+@media (max-width: 504px) {
+  .arena,
+  .barber {
+    margin-top: 0px !important ;
+  }
+  .contact-btn {
+    width: auto;
+  }
+}
+
+.boulevard-carousel {
+  height: 100%;
+  /* width: auto; */
+}
+.boulevard-carousel img {
+  height: 450px;
+  object-fit: cover;
+}
+.navbar-collapse.collapsing {
+  height: auto !important;
+  position: relative !important;
+  overflow: hidden !important;
+  -webkit-transition-property: height, visibility !important;
+  transition-property: height, visibility !important;
+  -webkit-transition-duration: 0.35s !important;
+  transition-duration: 0.35s !important;
+  -webkit-transition-timing-function: ease !important;
+  transition-timing-function: ease !important;
+}
+.vjs-poster {
+  background-size: cover !important;
+}
+.timepicker {
+  position: absolute;
+  z-index: 1000;
+  float: left;
+  width: 160px;
+  padding-bottom: 5px;
+  margin: 2px 0 0 0;
+  list-style: none;
+  font-size: 14px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+.anchor {
+  display: block;
+  height: 300px;
+  margin-top: -300px;
+  visibility: hidden;
+}
+.small-anchor {
+  display: block;
+  height: 150px;
+  margin-top: -150px;
+  visibility: hidden;
+}
+
+/* Contact Us Page */
+.contact-us {
+  background-color: #f1f1f2;
+  margin-top: 135px;
+}
+
+.contact-us .title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2em;
+  letter-spacing: 3px;
+  width: 25%;
+  font-family: "Florentia Med";
+  color: #4b555c;
+}
+.contact-form1 {
+  padding-top: 20px;
+  background-color: #f1f1f2;
+  padding-left: 15% !important;
+  padding-right: 15% !important;
+  padding-bottom: 75px !important;
+}
+.contact-form1 p {
+  color: #4b555c;
+  font-family: "Florentia";
+}
+
+.contact-form1 .form-control {
+  color: #4b555c !important;
+}
+.contact-form1 form input,
+.contact-form1 form select,
+.contact-form1 form textarea {
+  border-bottom: 1px solid #c7b283;
+  border-radius: 0px;
+  background-color: white;
+  font-family: "Florentia";
+}
+
+.contact-form1 .form-submit-btn {
+  text-align: center;
+  float: right !important;
+  color: white;
+  background-color: #c7b283;
+  font-size: 16px;
+  font-family: "Florentia";
+  border-radius: 0px !important;
+  width: 200px;
+}
+
+/* Spa and Wellness */
+#jimamCarousel .carousel-indicators li,
+#arenaCarousel .carousel-indicators li,
+#barbershopCarousel .carousel-indicators li,
+.package-page .carousel-indicators li {
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: #c7b283;
+  position: relative;
+  top: -10px;
+}
+#jimamCarousel .carousel-indicators li:after,
+#arenaCarousel .carousel-indicators li:after,
+#barbershopCarousel .carousel-indicators li:after,
+.package-page .carousel-indicators li:after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #c7b283;
+}
+.spa-wellness .spa-image .carousel-indicators li {
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: #c7b283;
+  position: relative;
+  top: -10px;
+}
+.spa-wellness .spa-image .carousel-indicators li:after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #c7b283;
+}
+.package-page li {
+  /* display: inline-block;
+  vertical-align: middle; */
+  line-height: 30px;
+  padding-left: 15px;
+}
+.package-page ul {
+  list-style-image: url("../images/gold-smallest.png") !important;
+}
+.package-page .main-text {
+  letter-spacing: 1px !important;
+}
+
+.restaurant-detail img.restaurant-logo {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+/* Room Detail */
+.room-full-description ul {
+  list-style-image: url("../images/navy-smallest.png") !important;
+}
+.room-full-description li {
+  line-height: 30px;
+  padding-left: 15px;
+  letter-spacing: 1px !important;
+  font-family: "Florentia";
+  color: #4b555c;
+}
+.video-container {
+  position: relative;
+  /* text-align: center; */
+  color: white;
+}
+.video-container .at-a-glance {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 81.8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(199, 178, 131, 0.7);
+}
+.at-a-glance {
+  background: rgb(199, 178, 131, 1);
+}
+.at-a-glance .content {
+  padding-left: 20px;
+  padding-top: 15px;
+  color: white;
+}
+.at-a-glance .title {
+  font-family: "Florentia Med";
+  font-size: 1.5em;
+}
+.at-a-glance .points {
+  font-family: "Florentia";
+  font-size: 14px;
+}
+.at-a-glance ul {
+  list-style-image: url("../images/white-smallest.png") !important;
+}
+.at-a-glance li {
+  line-height: 25px;
+  padding-left: 15px;
+  letter-spacing: 1px !important;
+  font-family: "Florentia";
+}
+
+/* Rooms and suites */
+.rooms-suits-page {
+  background-color: #f1f1f2;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.rooms-suits-page .small-title {
+  font-size: 16px;
+  color: white;
+  width: 25%;
+  font-family: "Florentia Med";
+  text-align: center;
+}
+.rooms-suits-page .title {
+  width: 25%;
+  /* margin-top: 15px;
+  margin-bottom: 20px; */
+  font-size: 2em;
+  letter-spacing: 3px;
+  font-family: "Florentia Med";
+  color: #c7b283;
+}
+.rooms-suits-page .title a {
+  color: #c7b283 !important;
+}
+.rooms-suits-page .title a:hover {
+  text-decoration: none !important;
+}
+.room-carousel {
+  display: block;
+  width: 100%;
+}
+.room-carousel img {
+  height: 400px !important;
+}
+.room-carousel .carousel-indicators li {
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: #c7b283;
+  position: relative;
+  top: -10px;
+}
+.room-carousel .carousel-indicators li:after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #c7b283;
+}
+.room-suits-container {
+  /* margin-bottom: 40px; */
+}
+.rooms-suits-page .main-text {
+  color: white !important;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "Florentia";
+}
+.room-page-title {
+  margin-right: 10% !important;
+  margin-left: 10% !important;
+  margin-top: 50px;
+  /* margin-bottom: 40px !important; */
+}
+.room-page-title .title {
+  font-size: 2em;
+  font-family: "Florentia Med";
+  letter-spacing: 2px;
+  color: #c7b283;
+}
+.room-page-title .carousel-inner img {
+  height: 400px;
+  object-fit: cover;
+}
+.room-page-title .layers {
+  background: rgb(199, 178, 131, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 375px;
+}
+.room-page-title .layers-text {
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.room-page-title .layer-text .title {
+  font-family: "Florentia Med";
+  font-size: 18px;
+  color: white;
+}
+.room-page-title .layers-text .description {
+  font-family: "Florentia";
+  font-size: 14px;
+  color: white;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.room-page-title .layers-text .explore-link a {
+  font-family: "Florentia Med";
+  font-size: 14px;
+  color: white !important;
+}
+.room-page-title .layers-text .explore-link a:hover {
+  text-decoration: none;
+}
+.carousel-title {
+  width: 100%;
+  font-size: 1em;
+  font-family: "Florentia Med";
+  height: 40px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.carousel-title.normal {
+  background-color: #c7b283;
+  color: #4b555c;
+}
+.carousel-title.hover {
+  background-color: #c7b283;
+  color: white;
+}
+.nav-link.current-page {
+  color: white !important;
+}
+@media screen and (max-width: 1100px) {
+  .my-video-dimensions {
+    width: 80vw !important;
+    height: 550px !important;
+  }
+}
+@media screen and (max-width: 993px) {
+  .gallery {
+    padding: 50px 5% !important;
+  }
+  .room-page-title .carousel-inner {
+    margin-bottom: 50px !important;
+  }
+  .room-page-title .carousel-inner img {
+    height: 350px;
+    object-fit: cover;
+  }
+  .video-container .at-a-glance {
+    height: auto;
+    top: 18.7%;
+  }
+  .at-a-glance .row {
+    display: inline-block;
+  }
+  .room-page-title .carousel-inner img {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 960px) {
+  .aboutus-logo {
+    top: 20%;
+  }
+  .aboutus .aboutus-logo .img1 {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .aboutus-content img {
+    /* padding-top: 155px !important; */
+    display: block;
+    margin: 0 auto;
+  }
+  .aboutus-content .content {
+    padding-left: 30px !important;
+  }
+  .aboutus-content .boulevard-carousel img {
+    height: 500px;
+    width: 450px !important;
+    display: block !important;
+    margin: 0 auto;
+  }
+  .footer-primary iframe {
+    float: none !important;
+  }
+  .footer-secondary iframe {
+    float: none !important;
+  }
+}
+@media screen and (max-width: 669px) {
+  .video-container .at-a-glance {
+    height: auto;
+    top: 20.9%;
+  }
+}
+@media screen and (max-width: 730px) {
+  #banner {
+    padding-top: 120px;
+  }
+  #about-us-page {
+    margin-top: 245px !important;
+  }
+  #spa-wellness-page {
+    margin-top: 235px !important;
+  }
+  #rooms-suites-page {
+    margin-top: 235px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  #about-us-page {
+    margin-top: 135px !important;
+  }
+  #spa-wellness-page {
+    margin-top: 135px !important;
+  }
+  #rooms-suites-page {
+    margin-top: 135px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .custom-thumbnail img {
+    height: 100px;
+  }
+  #spa-wellness-page .spa-image .carousel-item > img {
+    height: 375px;
+  }
+  #spa-wellness-page .arena-image .carousel-item > img {
+    height: 375px;
+  }
+  #spa-wellness-page .barbershop-image .carousel-item > img {
+    height: 375px;
+  }
+  .room-carousel img {
+    height: 375px;
+  }
+  /* .aboutus-content .about-img {
+    height: 400px !important;
+    width: 350px !important;
+  }
+  .aboutus-content .boulevard-carousel img {
+    height: 400px !important;
+    width: 350px !important;
+  } */
+}
+@media screen and (max-width: 575px) {
+  .rooms-suits-page .title {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 485px) {
+  .video-container .at-a-glance {
+    height: auto;
+    top: 21%;
+  }
+}
+@media screen and (max-width: 445px) {
+  .video-container .at-a-glance {
+    height: auto;
+    top: 23.2%;
+  }
+}
+@media screen and (max-width: 385px) {
+  .aboutus-content {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .book-btn {
+    margin-left: 0px !important;
+  }
+}
+.aboutus .aboutus-logo .img1 {
+  margin-right: 20px;
+}
+#jimamCarousel::before,
+#arenaCarousel::before,
+#barbershopCarousel::before {
+  display: block;
+  content: " ";
+  margin-top: 0px !important;
+  height: 0px !important;
+  /* visibility: hidden; */
+}
+.navbar {
+  /* display: none !important; */
+}
+.fade-in-image {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in-about {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.section {
+  height: 100vh;
+}
+body {
+  background-color: #f1f1f2 !important;
+}
+#booking {
+  margin-top: 100px;
+}
+.booking {
+  height: 100%;
+  width: 100%;
+}
+.booking iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+.vimeo-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+.vimeo-wrapper iframe {
+  width: 100vw;
+  height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+  min-height: 100vh;
+  min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#boulevard-room-slide img {
+  object-fit: cover;
+  height: 450px;
+}
+
+/* contact response */
+.wpcf7-response-output {
+  font-family: "Florentia";
+  color: #4b555c;
+}
+@media screen and (max-width: 500px) {
+  .room-carousel img {
+    height: 325px !important;
+  }
+}
